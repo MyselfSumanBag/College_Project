@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: 'gilroy';
+}
+::selection{
+    color: yellow;
+    background-color: #000;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+canvas.react-pdf__Page__canvas {
+    margin-bottom: 50px;
+    padding: 60px;
+}
